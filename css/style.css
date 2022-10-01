@@ -1,0 +1,256 @@
+body{
+  font-family: 'Poppins';
+  color: #586f7c;
+  text-align: center;
+}
+
+h1{
+  font-size: 3rem;
+  padding: 10% 13% 0;
+  line-height: 1.2;
+}
+
+h1, h2{
+  font-weight: 700;
+}
+
+/* navigation style */
+
+.navigation-list{
+  margin: auto; 
+}
+
+.drop-link{
+  margin: 0 20px 0 350px ;
+  height: 30px;
+  width: 100px;
+}
+
+.navbar{
+ padding-left: 4%;
+}
+
+/* brand name style */
+.brand-title{
+  font-family:'Sofia', cursive;
+  font-weight: bold;
+  color: black;
+}
+
+.brand-name{
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.title-btn{
+  background-color: #6b00d7;
+  color: #FFF;
+}
+
+
+ /* title style */
+
+ .container-fluid{
+  margin: 1% 0 2% ;
+  padding: 0;
+  
+ }
+
+ #title{
+  background-color: #fff;
+  
+}
+
+.title-text{
+  padding: 0 15%;
+}
+
+.home{
+  color: #6b00d7;
+}
+
+
+.title-search{
+  padding: 0 5%;
+ }
+
+::placeholder{
+  font-size: .8rem;
+}
+
+.get-btn{
+  margin: 1% 2% 2% 0;
+}
+
+  
+
+
+/* title image */
+.title-img{
+  border-radius: 5%;
+  margin: 3% auto ;
+  width: 72%;
+  /* transform: rotate(3deg); */
+}
+
+
+/* testimonial style */
+
+#testimonial{
+  padding: 0 10%;
+}
+
+.t-text{
+  font-weight: 700;
+}
+
+
+
+/* features style */
+.card{
+  height: 95%;
+  margin: 0 10%;
+  border: solid 5px white;
+  border-radius: 6%;
+}
+
+
+
+.f-container{
+  margin: 2% 5% ;
+}
+
+#features h4{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.f-icon{
+  color: #6b00d7;
+}
+
+/* features and pricing  */
+
+#features, #pricing{
+  background-color: #f8f8fa;
+  padding: 0 2% 2%;
+  margin: 0 3% 3%;
+  
+}
+
+/* features and pricing heading */
+
+.f-heading, .pricing-heading{
+  text-align: left;
+  margin: 7% 0 0 3%;
+  line-height: .3;
+}
+
+
+/* agent section style */
+
+#agent{
+ margin-bottom: 5%;
+}
+
+#agent h5{
+  font-weight: 200;
+  font-family: 'sofia', cursive;
+  margin: 10px 0 ;
+}
+
+
+/* pricing style */
+
+.card-img-top{
+  border-radius: 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pricing h5{
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+#pricing p{
+  text-align: left;
+  font-size: .8rem;
+  }
+
+#pricing h6{
+  color: #6b00d7;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: right;
+}
+
+/* footer style */
+
+
+#footer{
+  margin-bottom: 50px;
+}
+
+.footer-text{
+  padding: 0 50px;
+  text-align: left;
+}
+
+#footer h6{
+  font-weight: bold;
+  color: #6b00d7;
+
+}
+
+a{
+  text-decoration: none;
+  color: #586f7c;
+}
+
+.social-icon{
+  padding: 0 0.8%;
+}
+
+hr{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media (max-width: 990px){
+
+  /* navigation */
+  .drop-link{
+    margin: 0;
+    width: auto;
+  }
+
+  .navi-button{
+    margin-top: 3%;
+  }
+
+  .f-card{
+    margin: 3% 0;
+  }
+  
+  
+}
+
